@@ -18,6 +18,12 @@ def get_phash(image):
 def get_dhash(image):
     return imagehash.dhash(image)
 
+def get_whash(image):
+    return imagehash.whash(image)
+
+def get_colorhash(image):
+    return imagehash.colorhash(image)
+
 def get_ahash_by_image_path(image_name):
     image = get_image(image_name)
     return get_ahash(image)
@@ -30,12 +36,20 @@ def get_dhash_by_image_path(image_name):
     image = get_image(image_name)
     return get_dhash(image)
 
+def get_whash_by_image_path(image_name):
+    image = get_image(image_name)
+    return get_whash(image)
+
+def get_colorhash_by_image_path(image_name):
+    image = get_image(image_name)
+    return get_colorhash(image)
+
 #image = get_image(image_name)
 
 start_time = time.time()
 
 for i in range(1000):
-    img_h = get_phash_by_image_path(image_name)
+    img_h = get_colorhash_by_image_path(image_name)
 
 program_time = time.time() - start_time
 

@@ -34,6 +34,8 @@ pip3 install ImageHash
 |ahash|bcfe3f1f3f674300|bcfe3f1f3f634300|1|
 |dhash|70bce479ddc78fbc|70bce47dddc78fbc|1|
 |phash|92de50cb1b6b4f81|82df50cb1b6b4f81|2|
+|whash|38fe1f1f3f234300|38fe1f1f3f234300|0|
+|colorhash|06c00010000|06c01010000|1|
 
 ##### Обрезка изображения
 
@@ -43,6 +45,8 @@ pip3 install ImageHash
 |ahash|181c7c7e7e7e581c|3cbc5cde7ed2b018|16|
 |dhash|e0b0d8d8d0d6b0b0|7070b8b8a0a62060|19|
 |phash|d1927eed8361234e|d49b4f6791f9a003|22|
+|whash|181c7c7e7e5e501c|38bc5cde5ed2b018|14|
+|colorhash|06e00000000|06e00000000|0|
 
 ##### Отзеркаливание изображения
 
@@ -52,6 +56,8 @@ pip3 install ImageHash
 |ahash|7f7f1b1b0e0c2cfc|fefed8d87030343f|28|
 |dhash|dad8b636b4d9d9b0|a4e49293d26464f2|34|
 |phash|98ace3532c6d6c39|cdf9960679383964|34|
+|whash|7f7e131b0a042cfc|fe7ec8d85020343f|24|
+|colorhash|06e00000000|06e00000000|0|
 
 ##### Изображение разного размера (без изменения соотношения сторон)
 
@@ -61,6 +67,8 @@ pip3 install ImageHash
 |ahash|ffd776f1b0601400|ffd776f1b0601400|0|
 |dhash|68aca4a725c8e4a4|68aca4a725c8e4a4|0|
 |phash|c6ec91f3eac58146|c6ec91f3eac58146|0|
+|whash|ffd776f1b0701400|ffd776f1b0701400|0|
+|colorhash|03600030000|03600030000|0|
 
 ##### Цветовой фильтр
 
@@ -70,6 +78,8 @@ pip3 install ImageHash
 |ahash|7e7e7c7cfc343818|3c7e7c7c7c3c3818|4|
 |dhash|e0c0e4e440656361|e0e0e4e4e064e060|8|
 |phash|86f008e5d64ab6ed|87d028e7d80ab6ed|8|
+|whash|7e7e3c3c7c343018|3c3e3c7c7c3c3818|6|
+|colorhash|07c00000000|0ec00008000|3|
 
 ##### Изменение соотношения сторон
 
@@ -79,6 +89,8 @@ pip3 install ImageHash
 |ahash|7eee6e0d283e1e0f|7eee6e0d283e1e0f|0|
 |dhash|f498c8dbda7c3898|f498c8dbda7c3c98|1|
 |phash|91e39ccc2b14b7c3|91e39ccc2b14b7c3|0|
+|whash|7eee6e05081e1e0f|7eee6e05081e1e0f|0|
+|colorhash|07603000000|07603000000|0|
 
 ##### Разные изображения
 
@@ -88,6 +100,8 @@ pip3 install ImageHash
 |ahash|bcfe3f1f3f674300|181c7c7e7e7e581c|25|
 |dhash|70bce479ddc78fbc|e0b0d8d8d0d6b0b0|24|
 |phash|92de50cb1b6b4f81|d1927eed8361234e|28|
+|whash|38fe1f1f3f234300|181c7c7e7e5e501c|26|
+|colorhash|06c00010000|06e00000000|2|
 
 ### Скорость выполнения
 
@@ -98,6 +112,8 @@ pip3 install ImageHash
 |aHash|11.260046482086182|4.433306455612183|
 |dHash|11.380343914031982|4.411283493041992|
 |pHash|12.440160989761353|5.216131925582886|
+|whash|68.58167481422424|61.524341344833374|
+|colorhash|88.37744522094727|80.86283349990845|
 
 ## Ссылки:
 * ImageHash - https://pypi.org/project/ImageHash/
